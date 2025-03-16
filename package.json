@@ -1,17 +1,21 @@
 {
   "name": "twitter-mcp-server",
   "version": "1.0.0",
+  "type": "module",
+  
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node twitter-mcp-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
+    "dotenv": "^16.4.7",
     "twitter-api-v2": "^1.20.2",
     "zod": "^3.24.2"
   }
